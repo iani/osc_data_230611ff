@@ -3,7 +3,7 @@
 // Theee settings avoid repeats while keeping response relatively sharp
 {
 	var trig, envsig;
-	Fader(); // make releasable;
+	// Fader(); // make releasable;
 	trig = 	AmpSlopeXyz() > 1.5;
 	envsig = EnvGen.kr(
         Env([0, 1, 1, 0], [0.02, 1, 0.3], releaseNode: 2),
