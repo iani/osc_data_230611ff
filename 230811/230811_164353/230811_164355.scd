@@ -310,15 +310,15 @@
 //:--[81676.785706667]
 [ '/minibee/data', 2, 0.53155905008316, 0.49945062398911, 0.49432304501534 ]
 //:--[81676.798098]
-[ '/code', '//:source jun 1
+[ '/code', "//:source jun 1
 {
-	SinOsc.ar(\freq.br(200)).dup.fader(amp: 0.2) * (\x1.sr > 0.5).lag(1);
-} +> \jun;
+	SinOsc.ar(\\freq.br(200)).dup.fader(amp: 0.2) * (\\x1.sr > 0.5).lag(1);
+} +> \\jun;
 //source asayo 1
 {
-	SinOsc.ar(\freq.br(200 * 8)).dup.fader(amp:0.2) * (\z4.sr > 0.5).lag(1);
-} +> \asayo;
-' ]
+	SinOsc.ar(\\freq.br(200 * 8)).dup.fader(amp:0.2) * (\\z4.sr > 0.5).lag(1);
+} +> \\asayo;
+" ]
 //:--[81676.825143917]
 [ '/minibee/data', 1, 0.46892932057381, 0.49993896484375, 0.50396776199341 ]
 //:--[81676.833063792]

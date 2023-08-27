@@ -300,15 +300,15 @@
 //:--[82580.15884075]
 [ '/localhostOutLevels', 1064, -1, 0.0, 0.0, 0.0, 0.0 ]
 //:--[82580.181596209]
-[ '/code', '//:source jun 1
+[ '/code', "//:source jun 1
 {
-	SinOsc.ar(\freq.br(200)).dup.fader(amp: 0.2) * (\x1.sr > 0.5).lag(1);
-} +> \jun;
+	SinOsc.ar(\\freq.br(200)).dup.fader(amp: 0.2) * (\\x1.sr > 0.5).lag(1);
+} +> \\jun;
 //source asayo 1
 {
-	SinOsc.ar(\freq.br(200 * 8)).dup.fader(amp:0.2) * (\z4.sr > 0.5).lag(1);
-} +> \asayo;
-' ]
+	SinOsc.ar(\\freq.br(200 * 8)).dup.fader(amp:0.2) * (\\z4.sr > 0.5).lag(1);
+} +> \\asayo;
+" ]
 //:--[82580.199432834]
 [ '/minibee/data', 1, 0.46880722045898, 0.50018310546875, 0.50030523538589 ]
 //:--[82580.204713292]
