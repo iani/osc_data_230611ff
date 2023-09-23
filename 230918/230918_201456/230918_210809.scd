@@ -243,4 +243,135 @@ p = [
 		know: false ],  
 	// Array
 	2, [ nil,  nil,  nil,  nil,  
-		'OscFileNavigator',  o[3],  nil,  
+		'OscFileNavigator',  o[3],  nil,  nil,  
+		nil,  nil,  nil,  nil,  
+		nil,  nil,  nil,  nil,  
+		nil,  nil,  nil,  nil,  
+		nil,  nil,  nil,  nil,  
+		'FileNavigator',  o[18],  'Preferences',  o[46],  
+		nil,  nil,  nil,  nil ],  
+	// IdentityDictionary
+	3, [ array: o[4],  size: 1,  
+		proto: nil,  parent: nil,  
+		know: false ],  
+	// Array
+	4, [ nil,  nil,  nil,  nil,  
+		nil,  nil,  nil,  nil,  
+		nil,  nil,  'default',  o[5],  
+		nil,  nil,  nil,  nil,  
+		nil,  nil,  nil,  nil,  
+		nil,  nil,  nil,  nil,  
+		nil,  nil,  nil,  nil,  
+		nil,  nil,  nil,  nil ],  
+	// Event
+	5, [ array: o[6],  size: 7,  
+		proto: nil,  parent: nil,  
+		know: true ],  
+	// Array
+	6, [ nil,  nil,  'outerItem',  o[7],  
+		'bookmarks',  o[11],  'outerIndex',  0,  
+		nil,  nil,  nil,  nil,  
+		nil,  nil,  'innerIndex',  0,  
+		'currentRoot',  o[12],  'innerItem',  o[14],  
+		nil,  nil,  nil,  nil,  
+		'homeDir',  o[12],  nil,  nil ],  
+	// PathName
+	7, [ fullPath: o[8],  colonIndices: o[9] ],  
+	// List
+	9, [ array: o[10] ],  
+	// Array
+	10, [ 0,  6,  11,  17,  
+		42,  49 ],  
+	// Bookmarks
+	11, [ marks: nil ],  
+	// PathName
+	12, [ fullPath: o[13],  colonIndices: nil ],  
+	// PathName
+	14, [ fullPath: o[15],  colonIndices: o[16] ],  
+	// List
+	16, [ array: o[17] ],  
+	// Array
+	17, [ 0,  6,  11,  17,  
+		42,  49,  63 ],  
+	// IdentityDictionary
+	18, [ array: o[19],  size: 2,  
+		proto: nil,  parent: nil,  
+		know: false ],  
+	// Array
+	19, [ nil,  nil,  nil,  nil,  
+		nil,  nil,  nil,  nil,  
+		nil,  nil,  'default',  o[20],  
+		nil,  nil,  nil,  nil,  
+		nil,  nil,  nil,  nil,  
+		nil,  nil,  nil,  nil,  
+		nil,  nil,  nil,  nil,  
+		nil,  nil,  'oscscores',  o[33] ],  
+	// Event
+	20, [ array: o[21],  size: 6,  
+		proto: nil,  parent: nil,  
+		know: true ],  
+	// Array
+	21, [ nil,  nil,  'outerItem',  o[22],  
+		'bookmarks',  o[26],  'outerIndex',  0,  
+		nil,  nil,  nil,  nil,  
+		nil,  nil,  'innerIndex',  6,  
+		'currentRoot',  o[27],  nil,  nil,  
+		nil,  nil,  nil,  nil,  
+		'homeDir',  o[31],  nil,  nil ],  
+	// PathName
+	22, [ fullPath: o[23],  colonIndices: o[24] ],  
+	// List
+	24, [ array: o[25] ],  
+	// Array
+	25, [ 0,  6,  11,  23,  
+		31,  38 ],  
+	// Bookmarks
+	26, [ marks: nil ],  
+	// PathName
+	27, [ fullPath: o[28],  colonIndices: o[29] ],  
+	// List
+	29, [ array: o[30] ],  
+	// Array
+	30, [ 0,  6,  11,  23,  
+		31 ],  
+	// PathName
+	31, [ fullPath: o[32],  colonIndices: nil ],  
+	// Event
+	33, [ array: o[34],  size: 7,  
+		proto: nil,  parent: nil,  
+		know: true ],  
+	// Array
+	34, [ nil,  nil,  'outerItem',  o[35],  
+		'bookmarks',  o[39],  'outerIndex',  6,  
+		nil,  nil,  nil,  nil,  
+		nil,  nil,  'innerIndex',  0,  
+		'currentRoot',  o[40],  'innerItem',  o[42],  
+		nil,  nil,  nil,  nil,  
+		'homeDir',  o[40],  nil,  nil ],  
+	// PathName
+	35, [ fullPath: o[36],  colonIndices: o[37] ],  
+	// List
+	37, [ array: o[38] ],  
+	// Array
+	38, [ 0,  6,  11,  17,  
+		42,  49 ],  
+	// Bookmarks
+	39, [ marks: nil ],  
+	// PathName
+	40, [ fullPath: o[41],  colonIndices: nil ],  
+	// PathName
+	42, [ fullPath: o[43],  colonIndices: o[44] ],  
+	// List
+	44, [ array: o[45] ],  
+	// Array
+	45, [ 0,  6,  11,  17,  
+		42,  49,  63 ],  
+	// Event
+	46, [ array: o[47],  size: 1,  
+		proto: nil,  parent: nil,  
+		know: true ],  
+	// Array
+	47, [ 'savePath',  o[48],  nil,  nil ]
+];
+prUnarchive(o,p);
+" ]
