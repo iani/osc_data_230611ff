@@ -272,7 +272,8 @@ nil +>.jun \\freqmodnoise;
 	(1..50).normalize(1, 2) do: { | v, i |
 		XLine.kr(1, v, 90).bout(\\freq +++ i) // spread duration: 90
 	};
-} +>.asayo \\freqmod; //:crescendo:
+} +>.asayo \\freqmod;
+//:crescendo:
 { Line.kr(1, 2, 50) } @>.jun \\vol;
 { Line.kr(1, 2, 50) } @>.asayo \\vol; " ]
 //:--[6889.502128542]
